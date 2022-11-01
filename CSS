@@ -1,0 +1,180 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+    background-color: rgb(85, 85, 85);
+  }
+ 
+.menu{
+    margin-top: 70px;
+}
+ 
+.title{
+        color: white;
+        position: absolute;
+        top:-5px;
+        left: 30px;
+    }
+ 
+.express{
+        color: orange;
+        position: absolute;
+        top:2px;
+        left: 95px;
+}
+ 
+.tablink {
+    background-color: rgb(85, 85, 85);
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+ 
+.tablink:hover {
+    background-color: #777;
+}
+ 
+ 
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 600px;
+}
+ 
+#Home {background-color: rgb(228, 222, 212);}
+#BuyTicket {background-color: rgb(27, 66, 88);}
+#Prices {background-color: rgb(115, 226, 124);}
+#About {background-color: orange;}
+ 
+ 
+#pic{
+    display: block;
+    width: 480px;
+    height: 400px;  
+    margin-left: -15px;  
+}
+ 
+#pic2{
+    display: block;
+    width: 480px;
+    height: 400px;
+    margin-top: -400px;
+    margin-left: 480px;    
+}
+ 
+#pic3{
+    display: block;
+    width: 480px;
+    height: 400px;
+    margin-top: -400px;
+    margin-left: 970px;
+}
+.welcome{
+    margin-top: -50px;
+    color: rgb(116, 90, 41);
+}
+ 
+.tabcontent .sofia h4{
+    color: rgb(190, 58, 146);
+   
+}
+.tabcontent .sofia{
+    margin-left: 20px;
+    margin-bottom: -160px;
+}
+.tabcontent .athens h4{
+    color: rgb(25, 201, 201);
+    margin-left: 600px;
+ 
+}
+ 
+.tabcontent .athens{
+    margin-bottom: -165px;
+}
+ 
+.tabcontent .varna h4{
+    color: rgb(14, 184, 71);
+}
+.tabcontent .varna {
+    margin-left: 1050pX;
+ 
+}
+ 
+.from{
+    padding-top: 50px;
+    margin-left: 250px;
+}
+.to{
+    margin-left: 450px;
+    margin-top: -22px;
+}
+ 
+.departure{
+    padding-top: 20px;
+    padding-left: 250px;
+}
+.hour{
+    padding-top: 20px;
+    padding-left: 250px;
+}
+.name{
+    padding-top: 20px;
+    padding-left: 250px;
+}
+.surname{
+    padding-top: 20px;
+    padding-left: 250px;
+}
+.id{
+    padding-top: 20px;
+    padding-left: 250px;
+}
+.birth{
+    padding-top: 20px;
+    padding-left: 250px;
+}
+.phone{
+    padding-top: 20px;
+    padding-left: 250px;
+}
+.button{
+    padding-top: 80px;
+    padding-left: 480px;
+}
+ 
+.price {
+        padding-top: 50px;
+        padding-bottom: 60px;
+        margin-top: 30px;
+        border: 5px solid white;
+        border-radius: 5px;
+     
+}
+ 
+.price h4{
+    padding-left: 50px;
+    margin-top: 20px;
+   
+}
+ 
+#pic4{
+    display: block;
+    width: 600px;
+    height: 400px;
+    margin-top: -440px;
+    margin-left: 700px;
+}
+ 
+#pic5{
+    display: block;
+    width: 600px;
+    height: 400px;
+    margin-top: -450px;
+    margin-left: 770px;
+}
