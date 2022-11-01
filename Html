@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ornek.css">
+</head>
+<body>
+    <div class="container">
+ 
+        <div class="header">
+            <h1 class="title">Bus</h1>
+            <h2 class="express">Express</h2>
+        </div>
+     
+        <div class="menu">
+     
+    <button class="tablink" onclick="openPage('Home', this, 'rgb(228, 222, 212)')">Home</button>
+    <button class="tablink" onclick="openPage('BuyTicket', this, 'rgb(27, 66, 88)')" id="defaultOpen">Buy Ticket</button>
+    <button class="tablink" onclick="openPage('Prices', this, 'rgb(115, 226, 124)')">Prices</button>
+    <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+    </div>
+     
+    <div id="Home" class="tabcontent">
+      <div class="welcome">
+      <h3>Welcome to BusExpress!</h3>
+      </div>
+      <img src="ruse.jpg" alt="Ruse" id="pic">
+      <img src="athens.jpg" alt="Athens" id="pic2">
+      <img src="Varna.jpg" alt="Athens" id="pic3">
+      <div class="sofia">
+          <h4>Sofia </h4>
+          <h4>Ruse</h4>
+          <h4>starting from</h4>
+          <h4>11.77 Euro!</h4>
+</div>
+    <div class="athens">
+        <h4>Boulevegrad</h4>
+          <h4>Athens</h4>
+          <h4>from</h4>
+          <h4>50.99 Euro!</h4>
+     
+    </div>
+    <div class="varna">
+        <h4>Plovdiv</h4>
+          <h4>Varna</h4>
+          <h4>from</h4>
+          <h4>10.60 Euro!</h4>
+     
+    </div>
+     
+    </div>
+     
+    <div id="BuyTicket" class="tabcontent">
+      <h3>Buy Ticket</h3>
+      <div class="wrapper">
+      <form>
+        <div class="from">
+            <label for="from">From:</label>
+ 
+             <select name="from" id="from" >
+              <option value="varna">Varna</option>
+              <option value="burgas">Burgas</option>
+              <option value="plovdiv">Plovdiv</option>
+              <option value="sofia">Sofia</option>
+              <option value="ruse">Ruse</option>
+              <option value="athens">Athens</option>
+              <option value="djebel">Djebek</option>
+          </select>
+</div>
+<div class="to">
+            <label for="to">To:</label>
+             
+            <select name="to" id="to">
+                <option value="varna">Plovdiv</option>
+                <option value="burgas">Burgas</option>
+                <option value="plovdiv">Varna</option>
+                <option value="sofia">Sofia</option>
+                <option value="ruse">Ruse</option>
+                <option value="athens">Athens</option>
+                <option value="djebel">Djebek</option>
+            </select>
+ 
+          </div>
+         
+          <div class="departure">
+            <label for="departure">Departure Day:</label>
+            <input type="text" id="departure" placeholder="dd/mm/yyyy">
+          </div>
+         
+          <div class="hour">
+            <label for="hour">At:</label>
+            <select name="hour" id="hour">
+                <option value="07">07:00</option>
+                <option value="08">08:30</option>
+                <option value="10">10:00</option>
+                <option value="14">14:30</option>
+                <option value="16">16:00</option>
+                <option value="20">20:45</option>
+                <option value="23">23:15</option>
+            </select>
+          </div>
+         
+          <div class="name">
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+          </div>
+         
+          <div class="surname">
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname">
+          </div>
+         
+          <div class="id">
+            <label for="id">ID:</label>
+            <input type="text" id="id">
+          </div>
+         
+          <div class="birth">
+            <label for="birth">Date of birth:</label>
+            <input type="text" id="birth">
+          </div>
+         
+          <div class="phone">
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone">
+          </div>
+         
+          <div class="button">
+            <button type="button">Submit</button>
+          </div>
+          <img src="kazanlak.jpg" alt="Kazanlak" id="pic5">
+         
+      </form>
+    </div>
+   </div>
+   
+    <div id="Prices" class="tabcontent">
+      <h3>Prices</h3>
+      <div class="price">
+      <h4>Varna-Burgas: 15 Euro<br>Plovdiv-Sofia: 25 Euro<br>Athens-Djebel: 38 Euro<br>Varna-Athens: 46 Euro<br>Varna-Sofia: 25 Euro
+        <br>Varna-Ruse: 13 Euro<br>Varna-Djebel: 38 Euro<br>Plovdiv-Athens: 40 Euro<br>Plovdiv-Djebel: 20 Euro <br>Plovdiv-Varna: 43 Euro
+        <br>Plovdiv-Ruse: 55 Euro<br>Burgas-Djebel: 50 Euro<br>Burgas-Sofia: 34 Euro<br>Burgas-Ruse: 22 Euro<br>Burgas-Athens: 56 Euro
+        <br>Sofia-Djebel: 52 Euro<br>Sofia-Athens: 60 Euro<br>Sofia-Ruse: 39 Euro<br>
+    </h4></div>
+    <img src="vratsa.jpg" alt="Vratsa" id="pic4">
+   </div>  
+ 
+    <div id="About" class="tabcontent">
+      <h3>About</h3>
+      <p>
+        BusExpress has the simple mission to provide you with a quick and convenient way to find and buy bus tickets for routes across
+        the country or abroad, finding for you the best offers and prices. We offer connections between Sofia and Plovdiv, Burgas,
+        Varna, Blagoevgrad, Ruse and many more. <br> <br>
+        You no longer have to browse the Internet, to make phone calls or go on site. Here you will always find the most current information
+        for every travel bus in Bulgaria. No matter where you go or from where you come, we shall take care about everything connected to your travel.
+        You need only to go to the bus station in time and have your ticket with you. <br> <br>
+        Soon we will offer trips to Serbia, Germany and Romania. <br> <br>
+        We know that every journey has a start and we hope that yours starts here, because we believe that with our help, your journey will be more comfortable!
+        <br> <br> We are eagerly waiting for you aboard BusExpress! <br> <br> <br>
+        Issuer<br>Gotikket BG Ltd.<br><br>Commercial register ID: 206541897<br><br>Managing Director<br>Svetoslav Minkov<br><br>Address
+        <br>Elovitsa 48, Sofia 1415, Bulgaria
+      </p>
+    </div>
+     
+     
+     
+    </div>
+     
+     
+    <script>
+    function openPage(pageName, elmnt, color) {
+ 
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+     
+       
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.backgroundColor = "";
+        }
+     
+       
+        document.getElementById(pageName).style.display = "block";
+     
+       
+        elmnt.style.backgroundColor = color;
+      }
+     
+      document.getElementById("defaultOpen").click();
+     
+      let from = document.querySelector('#from').value;
+      console.log(from);
+ 
+      let to = document.querySelector('#to').value;
+      console.log(to);
+ 
+      let departure = document.getElementById('departure').value
+      console.log(departure);
+ 
+      let hour = document.querySelector('#hour').value;
+      console.log(hour);
+ 
+      const name = document.getElementById('name');
+      console.log(name);
+ 
+      let surname = document.getElementById('surname').value;
+      console.log(surname);
+ 
+      let id = document.getElementById('id').value;
+      console.log(id);
+ 
+      let birth = document.getElementById('birth').value;
+      console.log(birth);
+ 
+      let phone = document.getElementById('phone').value;
+      console.log(phone);
+ 
+    </script>
+   
+</body>
+</html>
